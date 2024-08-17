@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "forju:op_ruin",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.stone"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:destructible_by_explosion": false,
+			"minecraft:geometry": "geometry.op_ruin",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "op_ruin",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:light_emission": 3,
+			"minecraft:map_color": "#861a22",
+			"minecraft:loot": "loot_tables/blocks/op_ruin.json"
+		}
+	}
+}
