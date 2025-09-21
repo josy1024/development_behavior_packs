@@ -1,10 +1,10 @@
 {
     "format_version": 2,
     "header": {
-      "description": "JU attack cow behavior 6.8.2024",
-      "name": "JU Cow Iron Attack Behavior Pack 6.8.2024",
+      "description": "JU attack cow behavior 21.09.2025",
+      "name": "JU Cow Iron Attack Behavior Pack 21.09.2025",
       "uuid":"3958f9a2-96e4-4db0-a907-145d065cd7f0",
-      "version": [1, 0, 1],
+      "version": [1, 0, 6],
       "min_engine_version": [1, 16, 0]
     },
     "modules":
@@ -13,7 +13,7 @@
           "description": "JU Cow Iron Add-On!",
             "type": "data",
             "uuid": "1b85a99a-bfeb-481d-8a77-b5cda182e7d3",
-            "version": [1, 0, 1]
+            "version": [1, 0, 6]
         }
       ],
     "dependencies": [
