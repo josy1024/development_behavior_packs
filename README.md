@@ -22,3 +22,12 @@ git clone https://github.com/josy1024/development_resource_packs.git
 ## doku
 * https://learn.microsoft.com/en-us/minecraft/creator/documents/behaviorpackfromscratch?view=minecraft-bedrock-stable
  
+## whats changed?
+
+* changed loot table ruined portal
+
+https://learn.microsoft.com/en-us/minecraft/creator/reference/source/vanillabehaviorpack_snippets/loot_tables/chests/ruined_portal?view=minecraft-bedrock-stable
+
+* changed cow behaviour
+
+/summon  forju:op_angry_cow

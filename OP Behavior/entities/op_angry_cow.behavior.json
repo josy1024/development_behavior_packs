@@ -181,6 +181,28 @@
 				"is_pushable_by_piston": true
 			},
 			"minecraft:conditional_bandwidth_optimization": {},
+			 "minecraft:behavior.nearest_attackable_target": {
+                "priority": 2,
+                "must_see": true,
+                "reselect_targets": true,
+                "within_radius": 25.0,
+                "entity_types": [
+                    {
+                        "filters": {
+                            "test": "is_family",
+                            "subject": "other",
+                            "value": "player"
+                        },
+                        "max_dist": 32
+                    }
+                ]
+            },
+            "minecraft:behavior.melee_attack": {
+                "priority": 3
+            },
+            "minecraft:attack": {
+                "damage": 1
+            },
 			"minecraft:loot": {
 				"table": "loot_tables/entities/op_angry_cow.json"
 			}

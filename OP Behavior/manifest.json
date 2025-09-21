@@ -2,9 +2,9 @@
 	"format_version": 2,
 	"header": {
 		"name": "OP Behavior",
-		"description": "OP Behavior Pack",
+		"description": "OP Behavior Pack 21.9.2025 ",
 		"uuid": "e4fac95e-fbea-e31c-fea6-490d91c2c713",
-		"version": [1, 0, 6],
+		"version": [1, 0, 7],
 		"min_engine_version": [1, 20, 0]
 	},
 	"metadata": {
