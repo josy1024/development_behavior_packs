@@ -19,10 +19,6 @@
 				"destroy_speeds": [
 					{ 
 						"speed": 50,
-						"block": "minecraft:bedrock"
-					},
-					{ 
-						"speed": 50,
 						"block": "minecraft:obsidian"
 					},
 					{ 
@@ -76,13 +72,13 @@
 						}
 					},
 					{
-						"speed": 1000,
+						"speed": 20,
 						"block": {
 							"tags": "query.any_tag('diamond')"
 						}
 					},	
 					{
-						"speed": 1000,
+						"speed": 20,
 						"block": {
 							"tags": "query.any_tag('deepslate')"
 						}
