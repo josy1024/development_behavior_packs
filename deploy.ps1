@@ -1,6 +1,7 @@
 $base = $PSSCRIPTROOT
 $destination = "C:\MineCraft\bedrock-server-latest\development_behavior_packs"
 
+Remove-item -path $destination -Force
 # Get all directories and files excluding .git folders
 $items = Get-ChildItem -Path $base -Recurse -Force | Where-Object {
     -not $_.FullName.Contains(".git")
@@ -19,3 +20,10 @@ foreach ($item in $items) {
         Copy-Item -Path $item.FullName -Destination $targetPath -Force
     }
 }
+Write-RelaxedIT -logtext "resource pack" -ForegroundColor yellow
+& ..\development_resource_packs\deploy.ps1
+
+Write-RelaxedIT -logtext "world loaders" -ForegroundColor yellow
+
+copy-item world_behavior_packs.json C:\MineCraft\bedrock-server-latest\worlds\kupfer\
+copy-item ..\development_resource_packs\world_resource_packs.json C:\MineCraft\bedrock-server-latest\worlds\kupfer\
