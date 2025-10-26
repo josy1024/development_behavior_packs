@@ -22,11 +22,26 @@
       ]
     },
     {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:infinity\",lvl:1},{id:\"minecraft:power\",lvl:5},{id:\"minecraft:flame\",lvl:1}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "rolls": {
         "min": 4,
         "max": 8
       },
-      "entries": [    
+      "entries": [
         {
           "type": "item",
           "name": "minecraft:obsidian",
@@ -71,17 +86,17 @@
         },
         {
           "type": "item",
-          "name": "minecraft:flint_and_steel",       
+          "name": "minecraft:flint_and_steel",
           "weight": 40
         },
         {
           "type": "item",
-          "name": "minecraft:fireball",         
+          "name": "minecraft:fireball",
           "weight": 40
         },
         {
           "type": "item",
-          "name": "minecraft:golden_apple",   
+          "name": "minecraft:golden_apple",
           "weight": 15
         },
         {
@@ -228,7 +243,7 @@
         },
         {
           "type": "item",
-          "name": "minecraft:clock",  
+          "name": "minecraft:clock",
           "weight": 5
         },
         {
@@ -247,7 +262,7 @@
         },
         {
           "type": "item",
-          "name": "minecraft:bell", 
+          "name": "minecraft:bell",
           "weight": 1
         },
         {
