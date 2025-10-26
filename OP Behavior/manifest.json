@@ -4,7 +4,7 @@
 		"name": "OP Behavior",
 		"description": "OP Behavior Pack 5.10.2025 ",
 		"uuid": "e4fac95e-fbea-431c-8ea6-490d91c2c713",
-		"version": [1, 0, 9],
+		"version": [1, 0, 10],
 		"min_engine_version": [1, 20, 0]
 	},
 	"metadata": {
@@ -18,7 +18,7 @@
 	"modules": [
 		{
 			"description": "Behavior",
-			"version": [1, 0, 9],
+			"version": [1, 0, 10],
 			"uuid": "b12ca975-ca86-4b64-89e0-3c7ee02ac82d",
 			"type": "data"
 		}
@@ -26,7 +26,7 @@
 	"dependencies": [
 		{
 			"uuid": "de5f33da-501f-48e6-89bf-7c817886b646",
-			"version": [1, 0, 9]
+			"version": [1, 0, 10]
 		}
 	]
 }

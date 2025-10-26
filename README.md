@@ -23,7 +23,7 @@ git clone https://github.com/josy1024/development_resource_packs.git
 * https://learn.microsoft.com/en-us/minecraft/creator/documents/behaviorpackfromscratch?view=minecraft-bedrock-stable
  
 ## whats changed?
-
+* 1, 0, 10: rebalance iron, leather, strings, add netherite ingot
 * 1, 0, 9: angry cow loot table (drop strings, drop dias, decrease leather)
 * 1, 0, 8: changed loot table ruined portal
 
